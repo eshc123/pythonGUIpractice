@@ -11,7 +11,7 @@ class MyApp(QWidget):
 
   def initUI(self):
       self.setWindowTitle('Icon')
-      self.setWindowIcon(QIcon('web.png')) #setWindowIcon()는 어플리케이션 아이콘을 설정하도록 하는 메소드
+      self.setWindowIcon(QIcon('../web.png')) #setWindowIcon()는 어플리케이션 아이콘을 설정하도록 하는 메소드
       self.setGeometry(300, 300, 300, 200) #setGeometry는 move()와 resize()를 하나로 합친 것
       self.show()
 
