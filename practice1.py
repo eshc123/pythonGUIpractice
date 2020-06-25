@@ -1,5 +1,7 @@
+#파이썬 GUI 실습 프로젝트
+
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget #QtWidgets에는 기본적인 UI를 제공하는 위젯이 있다
+from PyQt5.QtWidgets import QApplication, QWidget #QtWidgets에는 기본적인 UI를 제공하는 위젯이 있다.
 
 
 class MyApp(QWidget):
