@@ -27,7 +27,7 @@ class MyApp(QWidget):
                               "border-width: 3px;"
                               "border-color: #1E90FF")
 
-        vbox = QVBoxLayout()
+        vbox = QVBoxLayout() # QVBox 는 수직박스이다.
         vbox.addWidget(lbl_red)
         vbox.addWidget(lbl_green)
         vbox.addWidget(lbl_blue)
